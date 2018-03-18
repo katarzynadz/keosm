@@ -1,0 +1,35 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Katarzyna Dziadowicz</foaf:name>
+<foaf:title>Ms</foaf:title>
+<foaf:givenname>Katarzyna</foaf:givenname>
+<foaf:family_name>Dziadowicz</foaf:family_name>
+<foaf:nick>Kae</foaf:nick>
+<foaf:mbox_sha1sum>99398bd9e27d12de75ae3f302bfd6a75a2b2aab7</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="instagram.com/fulminii"/>
+<foaf:depiction rdf:resource="https://scontent-frt3-2.xx.fbcdn.net/v/t1.0-9/28058962_1602489499805990_6672713428354707029_n.jpg?oh=6cb3379170b5bf84f4b901fb03e07c4b&oe=5B4B0264"/>
+<foaf:phone rdf:resource="tel:605905299"/>
+<foaf:schoolHomepage rdf:resource="http://www.uj.edu.pl/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>HMR</foaf:name>
+<foaf:mbox_sha1sum>b226a45ff0e389a7f9d9de1580c4624a995c6777</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Dede</foaf:name>
+<foaf:mbox_sha1sum>720c0dd11a85d38668bcfedb0d1db24457064e3e</foaf:mbox_sha1sum></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Piotr</foaf:name>
+<foaf:mbox_sha1sum>d21d00646af81a27369ee70c3e3037effd3c257e</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>
