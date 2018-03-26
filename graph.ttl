@@ -1,0 +1,40 @@
+@base <http://theboldandthebeautiful.org/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rel: <http://www.perceive.net/schemas/relationship/> .
+
+<#BrookeLogan>
+    rel:enemyOf <#StephanieDouglas> ;
+    a foaf:Person ;  
+    foaf:name "Brooke Logan" .
+
+<#StephanieDouglas>
+	rel:motherOf <#Ridge> ;
+	rel:motherOf <#Thorne> ;
+	a foaf:Person ;
+	foaf:name "Stephanie Douglas" .
+
+<#MassimoMarone>
+	rel:fatherOf <#Ridge>
+	a foaf:Person ; 
+	foaf:name "Massimo Marone" .
+
+<#EricForrester> ;
+	rel:fatherOf <#Thorne> ;
+	a foaf:Person ;
+	foaf:name "Eric Forrester" .
+
+<#Thorne>
+	a foaf:Person ;
+	foaf:name "Thorne" .
+
+<#Ridge>
+	a foaf:Person ;
+	foaf:name "Ridge" .
+
+ 
+
+<http://theboldandthebeautiful.org/#BrookeLogan> <http://www.perceive.net/schemas/relationship/enemyOf> <http://theboldandthebeautiful.org/#StephanieDouglas> .
+<http://theboldandthebeautiful.org/#StephanieDouglas> <http://www.perceive.net/schemas/relationship/motherOf> <http://theboldandthebeautiful.org/#Ridge> .
+<http://theboldandthebeautiful.org/#StephanieDouglas> <http://www.perceive.net/schemas/relationship/motherOf> <http://theboldandthebeautiful.org/#Thorne> .
+<http://theboldandthebeautiful.org/#MassimoMarone> <http://www.perceive.net/schemas/relationship/fatherOf> <http://theboldandthebeautiful.org/#Ridge> .
+<http://theboldandthebeautiful.org/#EricForrester> <http://www.perceive.net/schemas/relationship/fatherOf> <http://theboldandthebeautiful.org/#Thorne> .
